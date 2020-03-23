@@ -19,7 +19,7 @@
             <ImageView
                 android:id="@+id/image1"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="520dp"
                 android:src="@drawable/sample1" />
 
             <TextView
@@ -27,7 +27,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/image1"
-                android:layout_marginTop="-108dp"
+                android:layout_marginTop="-52dp"
                 android:text="좋아요 100개" />
 
 
@@ -42,11 +42,11 @@
 
             <ImageButton
                 android:id="@+id/commentButton1"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_below="@+id/likeTextView1"
-                android:layout_marginLeft="60dp"
-                android:layout_marginTop="-5dp"
+                android:layout_marginLeft="55dp"
+                android:background="#ffffff"
                 android:adjustViewBounds="true"
                 android:padding="-10dp"
                 android:scaleType="fitCenter"
@@ -54,11 +54,11 @@
 
             <ImageButton
                 android:id="@+id/msgButton1"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_below="@+id/likeTextView1"
-                android:layout_marginLeft="120dp"
-                android:layout_marginTop="-5dp"
+                android:background="#ffffff"
+                android:layout_marginLeft="110dp"
                 android:scaleType="fitCenter"
                 android:adjustViewBounds="true"
                 android:src="@drawable/insta_msg" />
@@ -70,7 +70,7 @@
                 android:layout_height="50dp"
                 android:layout_below="@id/image1"
                 android:layout_marginLeft="350dp"
-                android:layout_marginTop="-109dp"
+                android:layout_marginTop="-51dp"
                 android:layout_marginBottom="8dp"
                 app:srcCompat="@drawable/insta_bookmark" />
 
@@ -97,11 +97,11 @@
 
             <ImageButton
                 android:id="@+id/commentButton2"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_below="@+id/image2"
-                android:layout_marginLeft="60dp"
-                android:layout_marginTop="-5dp"
+                android:background="#ffffff"
+                android:layout_marginLeft="55dp"
                 android:adjustViewBounds="true"
                 android:padding="-10dp"
                 android:scaleType="fitCenter"
@@ -109,20 +109,20 @@
 
             <ImageButton
                 android:id="@+id/msgButton2"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_below="@+id/image2"
-                android:layout_marginLeft="120dp"
-                android:layout_marginTop="-5dp"
+                android:background="#ffffff"
+                android:layout_marginLeft="110dp"
                 android:scaleType="fitCenter"
                 android:adjustViewBounds="true"
                 android:src="@drawable/insta_msg" />
 
             <ImageButton
-                android:layout_width="60dp"
-                android:layout_height="60dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:id="@+id/imageButton8"
-                android:layout_marginTop="-5dp"
+                android:background="#ffffff"
                 android:layout_marginLeft="350dp"
                 android:scaleType="fitCenter"
                 android:adjustViewBounds="true"
@@ -153,11 +153,11 @@
 
             <ImageButton
                 android:id="@+id/commentButton3"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_below="@+id/image3"
+                android:background="#ffffff"
                 android:layout_marginLeft="60dp"
-                android:layout_marginTop="-5dp"
                 android:adjustViewBounds="true"
                 android:padding="-10dp"
                 android:scaleType="fitCenter"
@@ -165,11 +165,11 @@
 
             <ImageButton
                 android:id="@+id/msgButton3"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_below="@+id/image3"
+                android:background="#ffffff"
                 android:layout_marginLeft="120dp"
-                android:layout_marginTop="-5dp"
                 android:scaleType="fitCenter"
                 android:adjustViewBounds="true"
                 android:src="@drawable/insta_msg"/>
@@ -178,8 +178,8 @@
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:id="@+id/imageButton9"
-                android:layout_marginTop="-5dp"
                 android:layout_marginLeft="350dp"
+                android:background="#ffffff"
                 android:scaleType="fitCenter"
                 android:adjustViewBounds="true"
                 android:layout_below="@+id/image3"
